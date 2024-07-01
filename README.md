@@ -16,22 +16,22 @@ This repository contains my daily submissions to LeetCode problems. The goal is 
 ## Structure
 The repository is organized as follows:
 
+```plaintext
 Daily-LeetCode-Solutions/
 │
 ├── README.md
 ├── solutions/
-│ ├── problem1/
-│ │ ├── Problem1.java (or .py, .js, etc.)
-│ │ ├── README.md
-│ │ └── ...
-│ ├── problem2/
-│ │ ├── Problem2.java
-│ │ ├── README.md
-│ │ └── ...
-│ └── ...
+│   ├── problem1/
+│   │   ├── Problem1.java (or .py, .js, etc.)
+│   │   ├── README.md
+│   │   └── ...
+│   ├── problem2/
+│   │   ├── Problem2.java
+│   │   ├── README.md
+│   │   └── ...
+│   └── ...
 └── ...
-
-
+```
 - Each problem has its own directory inside the `solutions/` folder.
 - Each problem directory contains:
   - The solution file(s) (e.g., `Problem1.java`, `Problem1.py`).
