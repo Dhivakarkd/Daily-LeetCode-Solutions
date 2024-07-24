@@ -1,3 +1,6 @@
+import java.util.ArrayList;
+import java.util.Comparator;
+
 public class Main {
     public static void main(String[] args) {
         // Create an instance of the Solution class
@@ -21,6 +24,32 @@ public class Main {
 
 class Solution_2191 {
     public int[] sortJumbled(int[] mapping, int[] nums) {
-        return new int[0];
+
+        ArrayList<Integer[]> arrayList= new ArrayList<>();
+
+        for(int i=0;i<nums.length;i++){
+
+            String number = Integer.toString(nums[i]);
+            StringBuilder newNumber = new StringBuilder();
+
+            for(int j=0;j<number.length();j++){
+                newNumber.append(mapping[number.charAt(j) - '0']);
+            }
+
+            int newValue = Integer.parseInt(newNumber.toString());
+
+            arrayList.add(new Integer[]{newValue,i});
+        }
+
+
+        arrayList.sort(Comparator.comparing(a -> a[0]));
+
+        int[] answers = new int[nums.length];
+
+        for(int i=0;i<arrayList.size();i++){
+            answers[i] = nums[arrayList.get(i)[1]];
+        }
+        return answers;
     }
+
 }
