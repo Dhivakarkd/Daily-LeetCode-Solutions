@@ -1,4 +1,4 @@
-Solution
+Solution_1190
 Overview
 In this circular game, n friends numbered from 1 to n stand in a circle. In the first round, we start counting from friend 1 and eliminate the k-th friend. In each subsequent round, counting starts from the friend immediately clockwise to the one just eliminated, and the k-th friend is eliminated again. This process repeats until only one person remains.
 

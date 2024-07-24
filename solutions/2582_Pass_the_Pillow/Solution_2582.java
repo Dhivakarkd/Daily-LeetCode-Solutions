@@ -1,4 +1,4 @@
-class Solutions {
+public class Solution_2582 {
 
     public int passThePillow(int n, int time) {
         // Calculate the number of complete rounds of pillow passing

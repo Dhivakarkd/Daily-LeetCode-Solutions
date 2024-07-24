@@ -1,4 +1,4 @@
-Solution
+Solution_1190
 Overview
 We are given the number of people in the line and the number of seconds it takes each person to pass the pillow, and we need to determine who will be holding the pillow after a certain amount of time has passed. Solving this challenge helps us understand how to model and solve problems involving cyclic or repetitive processes.
 

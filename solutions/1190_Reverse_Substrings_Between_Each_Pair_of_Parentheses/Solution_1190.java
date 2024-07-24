@@ -1,7 +1,10 @@
-public class Solution {
+import java.util.Stack;
+
+public class Solution_1190 {
 
     public String reverseParentheses(String s) {
         int n = s.length();
+
         Stack<Integer> openParenthesesIndices = new Stack<>();
         int[] pair = new int[n];
 

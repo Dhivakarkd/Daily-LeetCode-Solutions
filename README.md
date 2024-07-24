@@ -1,4 +1,4 @@
-# Daily LeetCode Solutions
+# Daily LeetCode Solution_1717
 
 Welcome to my repository of daily LeetCode solutions! This repository is dedicated to tracking my progress as I solve various coding challenges on LeetCode. Each solution is organized by problem and includes a detailed explanation of the approach used.
 
@@ -6,7 +6,7 @@ Welcome to my repository of daily LeetCode solutions! This repository is dedicat
 - [About](#about)
 - [Structure](#structure)
 - [How to Use](#how-to-use)
-- [Solutions](#solutions)
+- [Solution_1717](#solutions)
 - [Contributing](#contributing)
 - [Contact](#contact)
 
@@ -17,7 +17,7 @@ This repository contains my daily submissions to LeetCode problems. The goal is 
 The repository is organized as follows:
 
 ```plaintext
-Daily-LeetCode-Solutions/
+Daily-LeetCode-Solution_1717/
 │
 ├── README.md
 ├── solutions/
@@ -40,16 +40,16 @@ Daily-LeetCode-Solutions/
 ## How to Use
 1. **Clone the Repository**: 
     ```sh
-    git clone https://github.com/your-username/Daily-LeetCode-Solutions.git
-    cd Daily-LeetCode-Solutions
+    git clone https://github.com/your-username/Daily-LeetCode-Solution_1717.git
+    cd Daily-LeetCode-Solution_1717
     ```
 
-2. **Navigate to a Solution**:
+2. **Navigate to a Solution_1190**:
     ```sh
     cd solutions/problem1
     ```
 
-3. **Run the Solution**:
+3. **Run the Solution_1190**:
     - For Java:
       ```sh
       javac Problem1.java
@@ -67,7 +67,7 @@ Daily-LeetCode-Solutions/
 4. **Explore the Explanation**:
     - Read the `README.md` in each problem directory to understand the approach and thought process behind the solution.
 
-## Solutions
+## Solution_1717
 | Problem Number | Problem Title | Language(s) |
 |----------------|---------------|-------------|
 | 1              | Two Sum       | Java, Python|

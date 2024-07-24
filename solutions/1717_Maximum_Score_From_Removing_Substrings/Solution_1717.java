@@ -1,4 +1,4 @@
-class Solutions {
+public class Solution_1717 {
     public int maximumGain(String s, int x, int y) {
         int res = 0;
         String top, bot;

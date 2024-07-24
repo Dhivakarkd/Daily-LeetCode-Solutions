@@ -1,4 +1,4 @@
-class Solution {
+public class Solution_1550 {
     public boolean threeConsecutiveOdds(int[] arr) {
         int count = 0;  // Initialize count to keep track of consecutive odd numbers
 

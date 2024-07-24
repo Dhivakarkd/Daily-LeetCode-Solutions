@@ -1,4 +1,4 @@
-class Solutions {
+public class Solution_1598 {
 
     public int minOperations(String[] logs) {
 
