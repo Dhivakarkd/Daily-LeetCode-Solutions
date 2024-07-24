@@ -21,7 +21,7 @@ mkdir -p "$formatted_folder_name"
 cd "$formatted_folder_name" || exit
 
 # Create the required files
-touch Solutions.java readme.md explanation.md
+touch Solution.java readme.md explanation.md
 
 # Output the result
 echo "Folder '$formatted_folder_name' created with Solutions.java, readme.md, and explanation.md files."

@@ -2,7 +2,7 @@ import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 
-class Solution {
+public class Solution_1636 {
     public int[] frequencySort(int[] nums) {
 
         Map<Integer,Integer> frequencyMap = new HashMap<>();

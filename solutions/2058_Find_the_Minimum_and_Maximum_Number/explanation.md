@@ -1,4 +1,4 @@
-Solution
+Solution_1190
 Approach: One Pass
 Intuition
 The problem requires finding the minimum and maximum distances between any two distinct critical points (local maxima or minima) in a given linked list. For example, consider the following list:

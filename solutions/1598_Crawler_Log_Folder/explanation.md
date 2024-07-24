@@ -1,4 +1,4 @@
-Solution
+Solution_1190
 Overview
 Given a list of strings logs, the task is to calculate the minimum steps needed to navigate back to the main folder.
 

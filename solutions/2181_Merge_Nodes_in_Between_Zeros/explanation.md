@@ -1,4 +1,4 @@
-Solution
+Solution_1190
 Approach 1: Two-Pointer (One-Pass)
 Intuition
 We can break this problem into two tasks: finding the sum of all the nodes between two consecutive 0s, and merging these values into a single list. One brute force idea is to iterate through the linked list, summing the node values, and adding this sum to a new linked list when we encounter a 0. However, we can modify the linked list in the given problem.

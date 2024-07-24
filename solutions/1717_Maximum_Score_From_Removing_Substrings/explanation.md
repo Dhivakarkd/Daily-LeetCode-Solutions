@@ -80,7 +80,7 @@ Return the total points stored in res.
 ⏰ Time complexity: O(n), since we iterate through stacks of size up to n twice -> O(n)
 🧺 Space complexity: O(n), since we use two stacks of size up to n -> O(n)
 💻 Code
-class Solution {
+class Solution_1190 {
 public int maximumGain(String s, int x, int y) {
 int res = 0;
 String top, bot;

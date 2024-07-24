@@ -1,4 +1,4 @@
-class Solution {
+public class Solution_1701 {
     public double averageWaitingTime(int[][] customers) {
 
         long nextWaitingTime =0;

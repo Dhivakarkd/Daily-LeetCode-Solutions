@@ -1,6 +1,6 @@
 import java.util.*;
 
-class Solution {
+public class Solution_2418 {
     public String[] sortPeople(String[] names, int[] heights) {
 
         SortedMap<Integer, String>

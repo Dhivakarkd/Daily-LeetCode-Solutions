@@ -1,4 +1,6 @@
-public class Solution {
+import common.ListNode;
+
+public class Solution_2181 {
 
     public ListNode mergeNodes(ListNode head) {
         // Initialize a sentinel/dummy node with the first non-zero value.
@@ -25,11 +27,4 @@ public class Solution {
     }
 }
 
-//  Definition for singly-linked list.
-class ListNode {
-      int val;
-      ListNode next;
-      ListNode() {}
-      ListNode(int val) { this.val = val; }
-      ListNode(int val, ListNode next) { this.val = val; this.next = next; }
-  }
+
