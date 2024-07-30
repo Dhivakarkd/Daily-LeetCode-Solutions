@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-class Solution {
+class Solution_1334 {
 
     public int findTheCity(int n, int[][] edges, int distanceThreshold) {
         // Large value to represent infinity

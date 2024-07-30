@@ -1,4 +1,4 @@
-class Solution {
+public class Solution_912 {
     public int[] sortArray(int[] nums) {
         var map = new int[100001];
 

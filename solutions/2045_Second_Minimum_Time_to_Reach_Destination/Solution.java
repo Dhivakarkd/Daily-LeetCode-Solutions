@@ -1,6 +1,6 @@
 import java.util.*;
 
-class Solution {
+class Solution_2045 {
     public int secondMinimum(int n, int[][] edges, int time, int change) {
         Map<Integer, List<Integer>> adj = new HashMap<>();
         for (int[] edge : edges) {
