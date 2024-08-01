@@ -21,12 +21,14 @@ mkdir -p "$formatted_folder_name"
 cd "$formatted_folder_name" || exit
 
 # Create the required files
-touch Solution.java readme.md explanation.md
+touch Solution_${fetchednum}.java readme.md explanation.md
 
 # Output the result
 echo "Folder '$formatted_folder_name' created with Solutions.java, readme.md, and explanation.md files."
 
 # Append the extracted number to README.md in the desired format
 echo "[$fetchednum]()" >> readme.md
+
+echo "class Solution_${fetchednum} {\n\n}" >> Solution_${fetchednum}.java
 
 echo "Appended [$fetchednum]() to README.md"
