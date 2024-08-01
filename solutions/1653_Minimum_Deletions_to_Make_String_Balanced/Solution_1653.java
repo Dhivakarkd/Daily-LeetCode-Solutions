@@ -33,6 +33,6 @@ public class Solution_1653 {
         for (int i = 0; i < len; i++) {
             minDiff =  Math.min(minDiff,count_a[i]+count_b[i]);
         }
-        return 0; 
+        return 0;
     }
 }
