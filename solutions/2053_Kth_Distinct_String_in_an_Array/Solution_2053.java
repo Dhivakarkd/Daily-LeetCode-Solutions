@@ -8,7 +8,6 @@ class Solution_2053 {
         Map<String,Integer> distinctMap = new HashMap<>();
         for (int i = 0; i < arr.length; i++) {
 
-            distinctMap.m
 
                 distinctMap.put(arr[i],distinctMap.getOrDefault(arr[i],0)+1);
 
